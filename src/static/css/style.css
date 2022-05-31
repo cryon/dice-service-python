@@ -1,0 +1,91 @@
+body {
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat;
+    font-size: 16pt;
+}
+
+#fork {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+div {
+    width: 650px;
+    margin: 20px auto;
+
+    background-color: rgba(206, 188, 165, 0.3);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: white;
+
+    text-shadow:
+        1px 1px 0 #CCC,
+        2px 2px 0 #CCC,
+        3px 3px 0 #444,
+        4px 4px 0 #444,
+        5px 5px 0 #444,
+        6px 6px 0 #444;
+
+    margin-bottom: 0px;
+}
+
+.flavor {
+    font-style: italic;
+    color: #888;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.result {
+    font-weight: bold;
+    color: white;
+}
+
+.error {
+    color: #DF3A01;
+}
+
+.gods {
+    font-weight: bold;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #0093ff;
+}
+
+a:hover {
+    color: white;
+}
+
+.help {
+    text-align: left;
+}
+
+.help h2 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.help ul {
+    list-style-type: none;
+    font-size: 14pt;
+}
+
+.help li {
+    margin-top: 7px;
+}

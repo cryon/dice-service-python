@@ -7,6 +7,8 @@ name = "pypi"
 uvicorn = "*"
 starlette = "*"
 jinja2 = "*"
+num2words = "*"
+pydantic = "*"
 
 [dev-packages]
 black = "*"

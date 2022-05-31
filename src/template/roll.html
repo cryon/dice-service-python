@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div>
+    <h1>
+        {{ res.roll }}
+    </h1>
+
+    <p class="flavor">
+        {{ res.roll_flavor }}
+    </p>
+
+    <p class="flavor">
+        {{ res.investigation_flavor }}
+        <span class="result">{{ res.result_flavor }}.</span>
+    </p>
+</div>
+
+<div class="help">
+    <h2>A few suggestions:</h2>
+    <ul>
+        <li><a href="/2d6">Two six-sided dice.</a></li>
+        <li><a href="/d10+4">A ten-sided die with a modifier of +4.</a></li>
+        <li><a href="/d">"A single six-sided die.</a></li>
+        <li><a href="/d1">The exciting single sided die!</a></li>
+    </ul>
+</div>
+
+{% endblock %}
